@@ -30,10 +30,10 @@ from esphome.const import (
 DEPENDENCIES = ["spi"]
 
 
-def AUTO_LOAD():
-    if CORE.is_esp32:
-        return ["psram"]
-    return []
+# def AUTO_LOAD():
+#     if CORE.is_esp32:
+#         return ["psram"]
+#     return []
 
 
 CODEOWNERS = ["@nielsnl68", "@clydebarrow"]
